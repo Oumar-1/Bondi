@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boundi</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boot strap Style sheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font-awesome Style sheet -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Start Nav Bar -->
+    <nav class="bg-dark navbar navbar-expand-lg fixed-top align-item-center">
+      <div class="container position-relative">
+        <a class="navbar-brand p-1 p-1" href="#">
+          <img class="img-fluid" src="imgs/main/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fa-2x text-white"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse pb-4 pb-lg-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="list-unstyled align-items-center d-lg-flex ms-auto m-0">
+            <li class="nav-item mx-2 fs-5">
+              <a
+                class="nav-link clr-gray fw-light p-2 text-decoration-none; active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-2 fs-5">
+              <a
+                class="nav-link clr-gray fw-light p-2 text-decoration-none"
+                aria-current="page"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item mx-2 fs-5">
+              <a
+                class="nav-link clr-gray fw-light p-2 text-decoration-none"
+                aria-current="page"
+                href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item mx-2 fs-5">
+              <a
+                class="nav-link clr-gray fw-light p-2 text-decoration-none"
+                aria-current="page"
+                href="#about"
+                >About</a
+              >
+            </li>
+          </ul>
+          <div>
+            <a
+              href="#login"
+              class="ms-4 special-btn fw-normal text-decoration-none login rounded-pill fw-normal px-3 py-1"
+              >Login</a
+            >
+          </div>
+        </div>
+        <div class="search clr-main p-0 px-3 position-absolute">
+          <i class="fa-solid fs-4 position-ls-relative fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Landing  -->
+    <section
+      class="landing py-5 bg-dark align-items-center align-items-center d-flex justify-content-center text-center text-white"
+      id="home"
+    >
+      <div class="container">
+        <div class="title">
+          <h1>Taste the Creativity</h1>
+          <p class="pb-3 fs-6 clr-gray">
+            We make awesome graphic and web design
+          </p>
+        </div>
+        <div class="">
+          <a
+            href="#"
+            class="ms-4 special-btn text-decoration-none rounded-pill fw-normal px-4 py-2"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Landing  -->
+    <!-- Start Services -->
+    <section class="services text-center py-5" id="services">
+      <div class="container p-lg-0">
+        <div class="sec-header pb-5 sec-header text-center">
+          <img src="imgs/main/particles.png" alt="img of particles" />
+          <div class="text">
+            <h2 class="fs-1 mt-2 m-0">We Are Good At</h2>
+            <p class="clr-gray m-0 pb-2 position-relative fs-5 fw-light py-1">
+              some of these stuff under
+            </p>
+          </div>
+        </div>
+        <div class="row g-3 mt-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="icons position-relative d-flex align-items-end justify-content-center"
+            >
+              <img src="imgs/services/icon-1.png" alt="" />
+            </div>
+            <div class="text">
+              <h5 class="my-4 clr-secondary text-uppercase">GRAPHIC DESIGN</h5>
+              <p class="lh-2 m-0 clr-gray">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="icons position-relative d-flex align-items-end justify-content-center"
+            >
+              <img src="imgs/services/icon-2.png" alt="" />
+            </div>
+            <div class="text">
+              <h5 class="my-4 clr-secondary text-uppercase">WEB DESIGn</h5>
+              <p class="lh-2 m-0 clr-gray">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="icons position-relative d-flex align-items-end justify-content-center"
+            >
+              <img src="imgs/services/icon-3.png" alt="" />
+            </div>
+            <div class="text">
+              <h5 class="my-4 clr-secondary text-uppercase">App DESIGN</h5>
+              <p class="lh-2 m-0 clr-gray">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <section class="portfolio bg-light-blue py-5" id="portfolio">
+      <div class="container">
+        <div class="sec-header pb-5 sec-header text-center">
+          <img src="imgs/main/particles.png" alt="img of particles" />
+          <div class="text">
+            <h2 class="fs-1 mt-2 m-0">We Make This</h2>
+            <p class="clr-gray m-0 pb-2 position-relative fs-5 fw-light py-1">
+              PREPARE TO BE AMAZED
+            </p>
+          </div>
+        </div>
+        <ul
+          class="catagory flex-wrap list-unstyled d-flex text-center justify-content-center"
+        >
+          <li>
+            <button class="catagory-toggle mx-2 mb-3 fs-5 active btn">
+              All
+            </button>
+          </li>
+          <li>
+            <button class="catagory-toggle mx-2 mb-3 fs-5 clr-gray btn">
+              Design
+            </button>
+          </li>
+          <li>
+            <button class="catagory-toggle mx-2 mb-3 fs-5 clr-gray btn">
+              Code
+            </button>
+          </li>
+          <li>
+            <button class="catagory-toggle mx-2 mb-3 fs-5 clr-gray btn">
+              Photography
+            </button>
+          </li>
+          <li>
+            <button class="catagory-toggle mx-2 mb-3 fs-5 clr-gray btn">
+              Apps
+            </button>
+          </li>
+        </ul>
+        <div class="row mt-5 g-2 justify-content-center">
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-1.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-2.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-3.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-4.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-5.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-6.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-7.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project col-sm-6 mb-3 col-md-4 col-lg-3 overflow-hidden position-relative"
+          >
+            <div class="p-1 bg-white card">
+              <img
+                class="img-fluid"
+                src="imgs/portfolio/portfolio-8.jpg"
+                alt=""
+              />
+
+              <div class="box card-body transform-scale-2">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn bg-main clr-dark hover">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a
+            href="#"
+            class="ms-4 special-btn text-decoration-none rounded-pill fw-normal px-4 py-2 text-uppercase"
+            >I want More...</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <section class="about pt-5" id="about">
+      <div class="container">
+        <div class="sec-header pb-5 sec-header text-center">
+          <img src="imgs/main/particles.png" alt="img of particles" />
+          <div class="text">
+            <h2 class="fs-1 mt-2 m-0">Some Stuff About Us</h2>
+            <p
+              class="clr-gray m-0 pb-2 position-relative fs-5 fw-light py-1 text-uppercase"
+            >
+              THE GREAT TEAM
+            </p>
+          </div>
+        </div>
+        <div class="discription text-max-700 text-center mx-auto clr-gray">
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+          eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+          dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+          malesuada.
+        </div>
+        <div class="row mt-5 p-0 m-0 align-items-center justify-content-center">
+          <div class="text text-center text-lg-start col-lg-6">
+            <h3 class="mb-3">Retina Design</h3>
+            <p class="clr-gray mb-5 mt-3">
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              <br />
+              <br />
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+              elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id
+              orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
+              molestie malesuada.
+            </p>
+            <div class="">
+              <a
+                href="#"
+                class="ms-4 special-btn text-decoration-none rounded-pill fw-normal px-4 py-2 text-uppercase"
+                >order me one</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 position-relative mt-5">
+            <img class="img-fluid" src="imgs/about/Vector-MacBook.png" alt="" />
+            <img
+              class="img-fluid about-screen-img position-absolute"
+              src="imgs/about/Screen.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Team Section Start -->
+    <section class="team pt-5 pb-3 bg-light-blue" id="team">
+      <div class="container">
+        <div class="team-title">
+          <h4 class="clr-secondary text-center">Meet The Team</h4>
+          <p class="text-max-700 mx-auto text-center clr-gray">
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
+        </div>
+        <div class="row">
+          <div class="member pb-5 col-sm-6 col-md-4 col-lg-3">
+            <div class="card position-relative rounded-5 overflow-hidden h-100">
+              <img
+                src="imgs/team/team-1.jpg"
+                class="card-img-top img-fluid"
+                alt="red mountaines"
+              />
+              <div
+                class="card-body team-card-body position-relative text-center px-3 py-4 px-lg-2 lh-2"
+              >
+                <h5
+                  class="card-title team-card-title position-absolute clr-white py-2 m-0 top-0 start-0 w-100"
+                >
+                  Luke Skywalker
+                </h5>
+                <q class="card-text bg-white">
+                  I don't understand how we got by those troops. I thought we
+                  were dead
+                </q>
+              </div>
+            </div>
+          </div>
+          <div class="member pb-5 col-sm-6 col-md-4 col-lg-3">
+            <div class="card position-relative rounded-5 overflow-hidden h-100">
+              <img
+                src="imgs/team/team-2.jpg"
+                class="card-img-top img-fluid"
+                alt="red mountaines"
+              />
+              <div
+                class="card-body team-card-body position-relative text-center px-3 py-4 px-lg-2 lh-2"
+              >
+                <h5
+                  class="card-title team-card-title position-absolute clr-white py-2 m-0 top-0 start-0 w-100"
+                >
+                  Obi-Wan Kenobi
+                </h5>
+                <q class="card-text bg-white">
+                  Your clones are very impressive. You must be very proud
+                </q>
+              </div>
+            </div>
+          </div>
+          <div class="member pb-5 col-sm-6 col-md-4 col-lg-3">
+            <div class="card position-relative rounded-5 overflow-hidden h-100">
+              <img
+                src="imgs/team/team-3.jpg"
+                class="card-img-top img-fluid"
+                alt="red mountaines"
+              />
+              <div
+                class="card-body team-card-body position-relative text-center px-3 py-4 px-lg-2 lh-2"
+              >
+                <h5
+                  class="card-title team-card-title position-absolute clr-white py-2 m-0 top-0 start-0 w-100"
+                >
+                  Princess Leia
+                </h5>
+                <q class="card-text bg-white">
+                  I don't know who you are or where you came from, but from now
+                  on you'll do as I tell you, okay?
+                </q>
+              </div>
+            </div>
+          </div>
+          <div class="member pb-5 col-sm-6 col-md-4 col-lg-3">
+            <div class="card position-relative rounded-5 overflow-hidden h-100">
+              <img
+                src="imgs/team/team-4.jpg"
+                class="card-img-top img-fluid"
+                alt="red mountaines"
+              />
+              <div
+                class="card-body team-card-body position-relative text-center px-3 py-4 px-lg-2 lh-2"
+              >
+                <h5
+                  class="card-title team-card-title position-absolute clr-white py-2 m-0 top-0 start-0 w-100"
+                >
+                  Yoda
+                </h5>
+                <q class="card-text bg-white">
+                  Do not assume anything Obi-Wan. Clear your mind must be if you
+                  are to discover the real villains behind this plot.
+                </q>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+    <!-- Start Clients -->
+    <div class="client py-5 bg-white" id="client">
+      <div class="container">
+        <div
+          class="d-flex justify-content-center flex-wrap flex-column align-items-center flex-sm-row"
+        >
+          <div class="box m-3">
+            <img
+              src="imgs/clients/logo-1.png"
+              class="img-fluid"
+              alt="our Clients Logo"
+            />
+          </div>
+          <div class="box m-3">
+            <img
+              src="imgs/clients/logo-2.png"
+              class="img-fluid"
+              alt="our Clients Logo"
+            />
+          </div>
+          <div class="box m-3">
+            <img
+              src="imgs/clients/logo-3.png"
+              class="img-fluid"
+              alt="our Clients Logo"
+            />
+          </div>
+          <div class="box m-3">
+            <img
+              src="imgs/clients/logo-4.png"
+              class="img-fluid"
+              alt="our Clients Logo"
+            />
+          </div>
+          <div class="box m-3">
+            <img
+              src="imgs/clients/logo-1.png"
+              class="img-fluid"
+              alt="our Clients Logo"
+            />
+          </div>
+          <div class="box m-3">
+            <img
+              src="imgs/clients/logo-2.png"
+              class="img-fluid"
+              alt="our Clients Logo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Clients -->
+    <!-- Advertise Start -->
+    <div
+      class="self-promo py-5 px-3 clr-white bg-dark text-center"
+      id="self-promo"
+    >
+      <div class="container py-1">
+        <div class="text">
+          <h3 class="text-capitalize fs-1 mb-4">Start Your Project Now</h3>
+          <p class="clr-gray">
+            Leave your description and we start the engine.Don't worry,you can
+            cancel anytime
+          </p>
+        </div>
+        <div class="text-center mt-5">
+          <a
+            href="#"
+            class="ms-4 special-btn text-decoration-none rounded-pill fw-normal px-4 py-2 text-uppercase"
+          >
+            Start Project
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Advertise End -->
+    <!-- Start Blog -->
+    <section class="blog py-5" id="blog">
+      <div class="container">
+        <div class="sec-header pb-5 sec-header text-center">
+          <img src="imgs/main/particles.png" alt="img of particles" />
+          <div class="text">
+            <h2 class="fs-1 mt-2 m-0">Read Our Blog</h2>
+            <p
+              class="clr-gray m-0 pb-2 position-relative fs-5 fw-light py-1 text-uppercase"
+            >
+              new Stories
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="box mb-4 p-sm-2 col-sm-6 col-lg-4">
+            <div class="border border-dark">
+              <img src="imgs/blog/img-1.jpg" class="img-fluid" alt="" />
+              <div class="title bg-white p-2">
+                <p class="clr-gray blog-date m-0">March 21,2022</p>
+                <h5 class="blog-title mt-1">Java Script roead Map</h5>
+              </div>
+            </div>
+          </div>
+          <div class="box mb-4 p-sm-2 col-sm-6 col-lg-4">
+            <div class="border border-dark">
+              <img src="imgs/blog/img-2.jpg" class="img-fluid" alt="" />
+              <div class="title bg-white p-2">
+                <p class="clr-gray blog-date m-0">Fab 11,2016</p>
+                <h5 class="blog-title mt-1">How to be a Programmer</h5>
+              </div>
+            </div>
+          </div>
+          <div class="box mb-4 p-sm-2 col-sm-6 col-lg-4">
+            <div class="border border-dark">
+              <img src="imgs/blog/img-3.jpg" class="img-fluid" alt="" />
+              <div class="title bg-white p-2">
+                <p class="clr-gray blog-date m-0">Januaray 17,2017</p>
+                <h5 class="blog-title mt-1">CSS Tricks</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a
+            href="#"
+            class="ms-4 special-btn text-decoration-none rounded-pill fw-normal px-4 py-2 text-uppercase"
+          >
+            MORE STORIES
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog -->
+    <!-- Start Subscribe in Email -->
+    <div class="subscribe py-3 bg-secondary">
+      <div class="container">
+        <form
+          class="d-flex flex-column text-center flex-md-row align-items-center justify-content-center"
+        >
+          <label for="sub-inp" class="fs-5">
+            Subscribe to our Newsletter
+          </label>
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            id="sub-inp"
+            class="sub-input fs-6 flex-grow-1 fw-normal clr-white bg-transparent border-bottom-2 p-2 pt-0 my-4 ms-3"
+          />
+          <input
+            href="#"
+            type="submit"
+            class="ms-4 border-0 bg-dark clr-secondary special-btn rounded-pill fw-normal px-4 py-2 text-uppercase"
+            value="Subscribe"
+          />
+        </form>
+      </div>
+    </div>
+    <!-- End Subscribe in Email -->
+    <footer class="bg-dark clr-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="box p-3 col-md-6 col-lg-4">
+            <div class="footer-logo">
+              <a class="navbar-brand p-1" href="#">
+                <img class="img-fluid" src="imgs/main/logo.png" alt="Logo" />
+              </a>
+            </div>
+            <div class="text my-5">
+              <p class="lh-lg">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+            <div class="copy-right">
+              <p>
+                Created by
+                <span class="clr-main">Graphberry</span>,Belgrade,Serbia
+              </p>
+              <p>&copy;2017-<span class="clr-secondary"> Bondi.Inc</span></p>
+            </div>
+          </div>
+          <ul class="box p-3 list-unstyled col-md-6 col-lg-3">
+            <li>
+              <a href="#" class="py-2 d-inline-block active clr-white">Links</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Home</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Our Services</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Testimonials</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Support</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray"
+                >Terms and Conditions</a
+              >
+            </li>
+          </ul>
+          <ul class="box list-unstyled py-3 col-md-6 col-lg-2">
+            <li><a href="#" class="active clr-white">About Us</a></li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">sign In</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Register</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">About Us</a>
+            </li>
+            <li><a href="#" class="py-2 d-inline-block clr-gray">Blog</a></li>
+            <li>
+              <a href="#" class="py-2 d-inline-block clr-gray">Contact Us</a>
+            </li>
+          </ul>
+          <div class="contact-info p-3 col-md-6 col-lg-3">
+            <h5>Contact Us</h5>
+            <p class="lh-md mt-3">
+              Get in touch with us via mail phone.We are waiting for your call
+              or message
+            </p>
+            <div>
+              <a
+                href="graphberry@gmail.com"
+                class="author-gmail text-center text-decoration-none fw-light px-3 w-100 d-block text-uppercase bg-red rounded-pill my-4 py-3"
+              >
+                graphberry@gmail.com
+              </a>
+            </div>
+            <div class="footer-icons text-center fs-4 w-100">
+              <a href="#" class="facebook-ico footer-icon rounded-pill m-1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="#"
+                class="twitter-ico footer-icon rounded-pill m-1 text-center"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="linkedin-ico footer-icon rounded-pill m-1">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#" class="discord-ico footer-icon rounded-pill m-1">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
